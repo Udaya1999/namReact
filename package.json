@@ -1,0 +1,28 @@
+{
+  "name": "namreact",
+  "version": "1.0.0",
+  "description": "This is NamReact by uday",
+  "scripts": {
+    "start": "parcel index.html",
+    "building": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Udaya1999/namReact.git)"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "uday",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.16.0"
+  }
+}

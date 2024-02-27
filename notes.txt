@@ -1,0 +1,27 @@
+// const Title =()=>(
+//     <h1 className="head" tabIndex="5">namesthe React using jsx</h1>
+
+// );
+
+// const number = 209;
+// const HeadingComponent=()=>(
+//     <div id="container">
+//         <Title />
+//         <h1>{number}</h1>
+//         <h1 className="heading">Namaste react from functional component </h1>
+//     </div>
+// );
+
+
+
+we can use the live data from the food ordering apps by using the UseEffect 
+
+        UseEffect(()=>{fetchData();},[]);
+
+        const fetchData = async () => {
+            const data = await fetch(" please paste the link of the API Here ");
+            const json = await data.json();
+            console.log(json);
+            setmyData(json.data.cards[2].data.data);
+        };
+
